@@ -1,0 +1,79 @@
+######################################
+# Common OS files
+######################################
+.DS_Store
+Thumbs.db
+
+######################################
+# Java / Maven / Spring Boot
+######################################
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Spring Boot configs (private)
+backend/src/main/resources/application.properties
+backend/src/main/resources/application.yml
+
+######################################
+# IntelliJ IDEA
+######################################
+.idea/
+*.iws
+*.iml
+*.ipr
+
+######################################
+# Eclipse / STS
+######################################
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+######################################
+# NetBeans
+######################################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+######################################
+# Node.js / React / Tailwind
+######################################
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+.tmp/
+.vite/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+.env
+
+######################################
+# VS Code
+######################################
+.vscode/
+
+######################################
+# Logs
+######################################
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
